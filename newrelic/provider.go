@@ -160,6 +160,7 @@ func Provider() *schema.Provider {
 			"newrelic_plugins_alert_condition":                  resourceNewRelicPluginsAlertCondition(),
 			"newrelic_service_level":                            resourceNewRelicServiceLevel(),
 			"newrelic_synthetics_alert_condition":               resourceNewRelicSyntheticsAlertCondition(),
+			"newrelic_synthetics_broken_links_monitor":          resourceNewRelicSyntheticsBrokenLinksMonitor(),
 			"newrelic_synthetics_monitor":                       resourceNewRelicSyntheticsMonitor(),
 			"newrelic_synthetics_monitor_script":                resourceNewRelicSyntheticsMonitorScript(),
 			"newrelic_synthetics_multilocation_alert_condition": resourceNewRelicSyntheticsMultiLocationAlertCondition(),
